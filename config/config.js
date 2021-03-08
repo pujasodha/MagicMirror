@@ -72,16 +72,6 @@ var config = {
 			position: "lower_third"
 		},
 		{
-			module: "currentweather",
-			position: "top_right",
-			config: {
-				location: "West Los Angeles",
-				locationID: "5393212", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "daaf866203b71ac99a59f88613a3da4a",
-				units: 'imperial'
-			}
-		},
-		{
 			module: "MMM-OpenmapWeather",
 			position: "top_right",
 			header: "Weather Forecast",
