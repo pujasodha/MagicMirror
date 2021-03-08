@@ -63,7 +63,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/u/0?cid=ZXQxMHFtaHV0ZzE3Y2NxMnBkaDA5aGtkcGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+						url: "https://calendar.google.com/calendar/ical/et10qmhutg17ccq2pdh09hkdpc%40group.calendar.google.com/public/basic.ics",
 					}
 				]
 			}
