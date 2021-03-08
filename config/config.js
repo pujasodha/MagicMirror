@@ -64,7 +64,6 @@ var config = {
 					{
 						symbol: "calendar-check",
 						url: "https://calendar.google.com/calendar/u/0?cid=ZXQxMHFtaHV0ZzE3Y2NxMnBkaDA5aGtkcGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
-						color: "#CCCCFF"
 					}
 				]
 			}
