@@ -56,7 +56,7 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Upcoming Events",
 			position: "top_left",
 			config: {
 				calendars: [
@@ -74,7 +74,7 @@ var config = {
 		{
 			module: "MMM-OpenmapWeather",
 			position: "top_right",
-			header: "Weather Forecast",
+			header: "Current Weather",
 			config: {
 				location: "West Los Angeles",
 				locationID: "5393212", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
@@ -83,6 +83,18 @@ var config = {
 				units: 'imperial',
 				showFeelsLike: true,
 				showSun: true
+			}
+		},
+		{
+			module: "weatherforecast",
+			position: "top_right",	// This can be any of the regions.
+										// Best results in left or right regions.
+			config: {
+				// See 'Configuration options' for more information.
+				location: "West Los Angeles",
+				locationID: "5393212", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
+				appid: "daaf866203b71ac99a59f88613a3da4a", //openweathermap.org API key.
+				units: "imperial"
 			}
 		},
 		{
