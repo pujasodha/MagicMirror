@@ -10,8 +10,8 @@ Module.register("compliments", {
 		compliments: {
 			anytime: ["Hey there!"],
 			morning: ["Good morning!", "Enjoy your day!", "How was your sleep?"],
-			afternoon: ["Hello, beauty!", "Looking good today!"],
-			evening: ["Good Evening!", "You look nice!"],
+			afternoon: ["How is your day so far?", "Good Afternoon!"],
+			evening: ["Good Evening!", "Time to Relax!"],
 			"....-01-01": ["Happy new year!"]
 		},
 		updateInterval: 30000,

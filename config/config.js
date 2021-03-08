@@ -47,7 +47,13 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_left",
+			config: {
+				timeFormat: 12,
+				showPeriod: true,
+				showDate: true,
+				showSunTimes: true
+			}
 		},
 		{
 			module: "calendar",
@@ -57,7 +63,9 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
+						url: "https://calendar.google.com/calendar/u/0?cid=ZXQxMHFtaHV0ZzE3Y2NxMnBkaDA5aGtkcGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+						color: "#CCCCFF"
+					}
 				]
 			}
 		},
