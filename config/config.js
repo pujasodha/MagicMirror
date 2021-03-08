@@ -81,26 +81,16 @@ var config = {
 				units: 'imperial'
 			}
 		},
-		// {
-		// 	module: "weatherforecast",
-		// 	position: "top_right",
-		// 	header: "Weather Forecast",
-		// 	config: {
-		// 		location: "West Los Angeles",
-		// 		locationID: "5393212", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-		// 		appid: "daaf866203b71ac99a59f88613a3da4a",
-		// 		units: 'imperial'
-		// 	}
-		// },
 		{
-			module: 'MMM-OpenmapWeather',
+			module: "MMM-OpenmapWeather",
 			position: "top_right",
+			header: "Weather Forecast",
 			config: {
-				location: 'West Los Angeles',
+				location: "West Los Angeles",
 				locationID: "5393212", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				appid: "daaf866203b71ac99a59f88613a3da4a",
-				colorIcon: true,
-				units: imperial
+				colorIcon: true, 
+				units: 'imperial'
 			}
 		},
 		{
