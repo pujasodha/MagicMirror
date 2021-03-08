@@ -81,15 +81,26 @@ var config = {
 				units: 'imperial'
 			}
 		},
+		// {
+		// 	module: "weatherforecast",
+		// 	position: "top_right",
+		// 	header: "Weather Forecast",
+		// 	config: {
+		// 		location: "West Los Angeles",
+		// 		locationID: "5393212", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+		// 		appid: "daaf866203b71ac99a59f88613a3da4a",
+		// 		units: 'imperial'
+		// 	}
+		// },
 		{
-			module: "weatherforecast",
+			module: 'MMM-OpenmapWeather',
 			position: "top_right",
-			header: "Weather Forecast",
 			config: {
-				location: "West Los Angeles",
+				location: 'West Los Angeles',
 				locationID: "5393212", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				appid: "daaf866203b71ac99a59f88613a3da4a",
-				units: 'imperial'
+				colorIcon: true,
+				units: imperial
 			}
 		},
 		{
@@ -98,8 +109,8 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "LA Times",
+						url: "https://www.latimes.com/world-nation/rss2.0.xml"
 					}
 				],
 				showSourceTitle: true,
