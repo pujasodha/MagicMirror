@@ -29,7 +29,7 @@ var config = {
 
 	language: "en",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
-	timeFormat: 24,
+	timeFormat: 12,
 	units: "imperial",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
@@ -52,7 +52,6 @@ var config = {
 				timeFormat: 12,
 				showDate: true,
 				showBold: true,
-				showSunTimes: true
 			}
 		},
 		{
@@ -100,7 +99,7 @@ var config = {
 				feeds: [
 					{
 						title: "New York Times",
-						url: "latimes.com/news/rss2.0.xml"
+						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
 					}
 				],
 				showSourceTitle: true,
