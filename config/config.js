@@ -73,7 +73,7 @@ var config = {
 		},
 		{
 			module: "MMM-NowPlayingOnSpotify",
-			position: "top_left",
+			position: "bottom_bar",
 			config: {
 				clientID: "d0538e0bd05c4d6fb923fabdf9b2effe",
 				clientSecret: "202e1b7027f943a9b0948c2ed7bc48e3",
@@ -110,7 +110,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_bar",
+			position: "bottom_center",
 			config: {
 				feeds: [
 					{
