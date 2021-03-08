@@ -79,7 +79,7 @@ var config = {
 				clientSecret: "202e1b7027f943a9b0948c2ed7bc48e3",
 				accessToken: "BQCKvXpg44gfDyuUvkUgRW1BWpZbJ6u6_mLYBahcdYzDlqDqiF_FVEltDORYSFzu_r3CbyS_R0t6mPEzG9n0gje7_uSMuq3MFi94tV_LbuBPhh6qDQP3BpEN0-QKLg311dFNSdYkUUFEeX7nLm4lvQAToA",
 				refreshToken: "AQDI7tuHBjxXqs_S9YXR9CX2eSaKOck-QikruTSUDkpa2Cy1XDKoziw0ZAKcUnvbB_6tWL_0wEDEds9r3AIrrU-dFDfYMyFQF19JIlNADQTYW4yTrPulcAQ9FuzWiUwltRw",
-				showCoverArt: true
+				showCoverArt: false 
 			}
 		},
 		{
