@@ -89,14 +89,15 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "LA Times",
-						url: "https://www.latimes.com/world-nation/rss2.0.xml"
+						title: "New Yorker",
+						url: "https://www.newyorker.com/feed/news"
 					}
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
 				broadcastNewsFeeds: true,
-				broadcastNewsUpdates: true
+				broadcastNewsUpdates: true,
+				showDescription: true
 			}
 		},
 	]
