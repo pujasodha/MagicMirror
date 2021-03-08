@@ -100,7 +100,7 @@ var config = {
 				feeds: [
 					{
 						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						url: "latimes.com/news/rss2.0.xml"
 					}
 				],
 				showSourceTitle: true,
