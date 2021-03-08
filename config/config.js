@@ -30,7 +30,7 @@ var config = {
 	language: "en",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
 	timeFormat: 24,
-	units: "metric",
+	units: "imperial",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
 	//   starts serveronly and then starts chrome browser
@@ -50,8 +50,8 @@ var config = {
 			position: "top_left",
 			config: {
 				timeFormat: 12,
-				showPeriod: true,
 				showDate: true,
+				showBold: true,
 				showSunTimes: true
 			}
 		},
