@@ -86,15 +86,6 @@ var config = {
 			}
 		},
 		{
-			module: "MMM-page-greeting",
-			position: "top_bar",    // This can be any of the regions
-			config: {
-				// The names must be in the same order as the modules 
-				// array in the MMM-pages config
-				profiles: ["Puja"]
-			}
-		},
-		{
 			module: "weatherforecast",
 			position: "top_right",	// This can be any of the regions.
 										// Best results in left or right regions.
