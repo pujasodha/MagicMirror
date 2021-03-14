@@ -47,7 +47,7 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "middle_center",
+			position: "top_left",
 			config: {
 				timeFormat: 12,
 				showDate: true,
@@ -57,7 +57,7 @@ var config = {
 		{
 			module: "calendar",
 			header: "Upcoming Events",
-			position: "middle_center",
+			position: "top_left",
 			config: {
 				calendars: [
 					{
@@ -73,7 +73,7 @@ var config = {
 		},
 		{
 			module: "MMM-NowPlayingOnSpotify",
-			position: "middle_center",
+			position: "bottom_bar",
 			config: {
 				clientID: "d0538e0bd05c4d6fb923fabdf9b2effe",
 				clientSecret: "202e1b7027f943a9b0948c2ed7bc48e3",
@@ -84,7 +84,7 @@ var config = {
 		},
 		{
 			module: "MMM-OpenmapWeather",
-			position: "middle_center",
+			position: "top_right",
 			header: "Current Weather",
 			config: {
 				location: "West Los Angeles",
@@ -98,7 +98,7 @@ var config = {
 		},
 		{
 			module: "weatherforecast",
-			position: "middle_center",	// This can be any of the regions.
+			position: "top_right",	// This can be any of the regions.
 										// Best results in left or right regions.
 			config: {
 				// See 'Configuration options' for more information.
@@ -110,7 +110,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "middle_center",
+			position: "bottom_center",
 			config: {
 				feeds: [
 					{
