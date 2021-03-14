@@ -43,7 +43,7 @@ var config = {
 		},
 		{
 			module: "updatenotification",
-			position: "top_bar"
+			position: "upper_center"
 		},
 		{
 			module: "clock",
