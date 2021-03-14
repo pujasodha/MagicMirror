@@ -43,7 +43,7 @@ var config = {
 		},
 		{
 			module: "updatenotification",
-			position: "upper_center"
+			position: "top_bar"
 		},
 		{
 			module: "clock",
@@ -69,7 +69,7 @@ var config = {
 		},
 		{
 			module: "compliments",
-			position: "middle_center"
+			position: "top_bar"
 		},
 		{
 			module: "MMM-NowPlayingOnSpotify",
